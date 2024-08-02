@@ -13,6 +13,7 @@ public class Main {
 //        System.out.println(b.a);
 //        b.gg();
 
+        E e = new E();
 
     }
 
@@ -49,5 +50,30 @@ class C extends B{
     int a=20;
     public void gg(){
         System.out.println(2);
+    }
+}
+class D{
+    //输出顺序
+    static {
+        System.out.println("fu_st");//1
+    }
+
+    {
+        System.out.println("fu");//3
+    }
+    public D(){
+        System.out.println("qwer");//4
+    }
+}
+class E extends D{
+    static {
+        System.out.println("zi_st");//2
+    }
+
+    {
+        System.out.println("zi");//5
+    }
+    public E(){
+        System.out.println("asdf");//6
     }
 }
