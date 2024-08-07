@@ -15,5 +15,6 @@ public class Frock {
 
     public int getsNum() {
         return sNum;
+        
     }
 }
