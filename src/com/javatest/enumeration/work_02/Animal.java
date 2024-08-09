@@ -1,9 +1,6 @@
 package com.javatest.enumeration.work_02;
 
-public class Animal {
+abstract public class Animal {
 
-    public void ggg(){
-
-
-    }
+    public abstract void shout();
 }
