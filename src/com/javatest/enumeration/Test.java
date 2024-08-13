@@ -1,5 +1,7 @@
 package com.javatest.enumeration;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
 //        System.out.println(Season.SPRING);
@@ -16,6 +18,8 @@ public class Test {
 
         //根据你输入的"值"到 Season 的枚举对象去查找
 //        System.out.println(Season.valueOf("SPRING"));
+
+
 
         Week[] wk = Week.values();
         System.out.println("===========");
