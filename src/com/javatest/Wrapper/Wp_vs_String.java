@@ -1,5 +1,6 @@
 package com.javatest.Wrapper;
 
+
 public class Wp_vs_String {
     public static void main(String[] args) {
         //包装类 -> String
@@ -16,5 +17,17 @@ public class Wp_vs_String {
         //构造器
         Integer m3 = new Integer(m1);
         m1.intern();
+
+        A a = new A();
+        a.ddd();
+        System.out.println(a.s);
+
+    }
+}
+class A{
+    String s = new String("asdf");
+    public void ddd(){
+        s="fff";
+        System.out.println(s);
     }
 }
