@@ -1,5 +1,7 @@
 package com.javatest.stringbuffer;
 
+import java.util.Arrays;
+
 public class StringvsStringBuffervsStringBuilder {
     public static void main(String[] args) {
 
@@ -18,7 +20,7 @@ public class StringvsStringBuffervsStringBuilder {
         StringBuffer stringBuffer = new StringBuffer();
         startTime = System.currentTimeMillis();
         for (int i = 0; i < 20000; i++) {
-            stringBuffer.append(i);
+            stringBuffer.append(String.valueOf(i));
         }
         endTime = System.currentTimeMillis();
         System.out.println("Time taken: " + (endTime - startTime));
