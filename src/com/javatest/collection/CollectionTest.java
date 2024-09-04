@@ -12,7 +12,7 @@ public class CollectionTest {
         list.add(new Book("qwer","rrr"));
         list.add(new Book("asdf","ttt"));
         list.add(new Book("zxcv","yyy"));
-
+        
         //得到 list 对应的迭代器(iterator)
         Iterator it = list.iterator();
         //循环遍历
