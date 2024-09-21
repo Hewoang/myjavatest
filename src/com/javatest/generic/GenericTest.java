@@ -16,3 +16,4 @@ class A<E,R>{
         this.b = b;
     }
 }
+
