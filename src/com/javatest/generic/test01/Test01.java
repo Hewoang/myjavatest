@@ -18,7 +18,7 @@ public class Test01 {
         map.put("qwer",new Student("qwer",20));
         map.put("asdf",new Student("asdf",21));
         map.put("zxcv",new Student("zxcv",19));
-
+        
         Set<Map.Entry<String, Student>> entries = map.entrySet();
         Iterator<Map.Entry<String, Student>> iterator = entries.iterator();
         while (iterator.hasNext()) {

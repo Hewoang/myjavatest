@@ -13,11 +13,11 @@ public class Main {
 //        System.out.println(b.a);
 //        b.gg();
 
-        E e = new E();
-
+//        E e = new E();
     }
 
 }
+
 class A{
     int a;
     String b;
@@ -27,12 +27,12 @@ class A{
 
     }
     public void gg2(int[] a){
-//        for (int i = 0; i < a.length; i++) {
-//            for (int j = 0; j < a.length; j++) {
-//                if(a[i] < a[j]){
-//                    int temp = a[i];
-//                    a[i] = a[j];
-//                    a[j] = temp;
+//        for (int k = 0; k < arr.length-1; k++) {
+//            for (int v = 0; v < arr.length-1-k; v++) {
+//                if (arr[v] > arr[v+1]) {
+//                    int temp = arr[v];
+//                    arr[v] = arr[v+1];
+//                    arr[v+1] = temp;
 //                }
 //            }
 //        }
